@@ -92,8 +92,8 @@ if (touchingGround == false)
 
 /// @description Player movment
 
-moveRight = keyboard_check(vk_right)
-moveLeft = keyboard_check(vk_left)
+moveRight = keyboard_check(ord("D"))
+moveLeft = keyboard_check(ord("A"))
 moveUp = keyboard_check(vk_up)
 moveDown = keyboard_check(vk_down)
 
