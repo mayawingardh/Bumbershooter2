@@ -4,8 +4,7 @@
 if (distance_to_object(oPlayer) > 10)
 {
 rSpeed = 20;
-
-speed = min(speed + 0.5, 15);
+speed = min(speed + 0.5, 6);
 var pointdir = point_direction(x, y, oPlayer.x + 40, oPlayer.y + 40);
 image_angle += sin(degtorad(pointdir - image_angle)) * rSpeed;
 direction = image_angle;
@@ -13,13 +12,10 @@ direction = image_angle;
 else
 {
 rSpeed = 4;
-speed = min(speed + 0.5, 1);
+speed = min(speed + 0.1, 0.5);
 image_angle += rSpeed;
 direction = image_angle;	
 }
-
-
-
 
 switch (oPlayer.hitPoints)
 {
@@ -75,4 +71,3 @@ switch (oPlayer.hitPoints)
 	image_index = 16;
 	break;
 }
-
