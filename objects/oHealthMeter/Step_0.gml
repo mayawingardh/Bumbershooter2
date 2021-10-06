@@ -1,10 +1,10 @@
 //oHealthMeter.x = oPlayer.x + 100;
 //oHealthMeter.y = oPlayer.y + 10;
 
-if (distance_to_object(oPlayer) > 10)
+if (distance_to_object(oPlayer) > 100)
 {
-rSpeed = 20;
-speed = min(speed + 0.5, 6);
+rSpeed = 10;
+speed = min(speed + 0.5, 30);
 var pointdir = point_direction(x, y, oPlayer.x + 40, oPlayer.y + 40);
 image_angle += sin(degtorad(pointdir - image_angle)) * rSpeed;
 direction = image_angle;

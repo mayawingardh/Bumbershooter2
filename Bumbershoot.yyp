@@ -80,6 +80,7 @@
     {"id":{"name":"Splat","path":"sounds/Splat/Splat.yy",},"order":24,},
     {"id":{"name":"spr_enemy_flying_2","path":"sprites/spr_enemy_flying_2/spr_enemy_flying_2.yy",},"order":19,},
     {"id":{"name":"oBullets","path":"objects/oBullets/oBullets.yy",},"order":7,},
+    {"id":{"name":"spr_umbrella_shield","path":"sprites/spr_umbrella_shield/spr_umbrella_shield.yy",},"order":37,},
     {"id":{"name":"Shield4","path":"sounds/Shield4/Shield4.yy",},"order":17,},
     {"id":{"name":"oEnemyPlatform","path":"objects/oEnemyPlatform/oEnemyPlatform.yy",},"order":3,},
     {"id":{"name":"Gliding1","path":"sounds/Gliding1/Gliding1.yy",},"order":4,},
