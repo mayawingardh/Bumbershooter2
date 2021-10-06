@@ -83,7 +83,6 @@
     {"id":{"name":"Shield4","path":"sounds/Shield4/Shield4.yy",},"order":17,},
     {"id":{"name":"oEnemyPlatform","path":"objects/oEnemyPlatform/oEnemyPlatform.yy",},"order":3,},
     {"id":{"name":"Gliding1","path":"sounds/Gliding1/Gliding1.yy",},"order":4,},
-    {"id":{"name":"rRoom","path":"rooms/rRoom/rRoom.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -99,7 +98,6 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
-    {"roomId":{"name":"rRoom","path":"rooms/rRoom/rRoom.yy",},},
     {"roomId":{"name":"rHighScore","path":"rooms/rHighScore/rHighScore.yy",},},
   ],
   "Folders": [

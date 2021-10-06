@@ -1,6 +1,6 @@
 acc = 0;
-hitPoints = 10;
-maxHitPoints = 10;
+hitPoints = 16;
+maxHitPoints = 16;
 deathTimer = 0;
 
 ammo = 1;
