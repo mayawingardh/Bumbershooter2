@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_umbrella_shield",
+    "path": "sprites/spr_umbrella_shield/spr_umbrella_shield.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
