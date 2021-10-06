@@ -1,0 +1,1 @@
+oPlayer.hitPoints -= 1;
