@@ -7,7 +7,7 @@ function GiveDirection(object){
 	}
 	else 
 	 {
-		 direction = point_direction(object.x,object.y,oPlayer.x,oPlayer.y - 5);
+		 direction = point_direction(object.x,object.y,oPlayer.x,oPlayer.y - 40);
 	 }
 	
 	image_angle = direction;

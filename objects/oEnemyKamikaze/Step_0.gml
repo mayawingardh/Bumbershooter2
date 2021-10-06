@@ -17,5 +17,4 @@ else
 speed = min(speed + 0.5, 5);
 image_angle++;
 direction = image_angle;	
-	
 }
