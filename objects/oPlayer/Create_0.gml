@@ -1,9 +1,9 @@
 acc = 0;
-hitPoints = 10;
-maxHitPoints = 10;
+hitPoints = 16;
+maxHitPoints = 16;
 deathTimer = 0;
 
-ammo = 1;
+ammo = 5;
 maxAmmo = 5;
 
 impactStart = 0;
@@ -11,7 +11,7 @@ impactEnd = 0;
 impactSpeed = 0;
 
 touchingGround = false;
-fallSpeed = 15;
+fallSpeed = 10;
 currentAltitude = oPlayer.y;
 jumpTimer = 0;
 jumping = false;
@@ -21,7 +21,7 @@ parachuteInitiate = false;
 parachuteActive = false;
 braking = 0;
 
-moveSpeed = 2;
+moveSpeed = 0;
 
 //image_index = 2;
 speed = 0;

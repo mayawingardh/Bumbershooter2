@@ -1,10 +1,13 @@
 oPlayer.y += fallSpeed - braking;
+
 jumpHeight = currentAltitude - oPlayer.y;
-speed -= 1;
-if (speed < 0)
-{
-	speed = 0;
-}
+
+//speed -= 1;
+
+//if (speed < 0)
+//{
+//	speed = 0;
+//}
 
 if (hitPoints < 1)
 {
@@ -63,7 +66,7 @@ if (touchingGround == false)
 	if (parachuteActive == false)
 	{
 		impactSpeed = impactStart * delta_time / 1000000;
-		//image_index = 1;
+		
 		braking -= 0.5;
 		if (braking < 0)
 		{
@@ -80,7 +83,7 @@ if (touchingGround == false)
 	if (parachuteActive)
 		{
 			impactSpeed -= (impactSpeed * delta_time / 100000);    
-			//image_index = 2;
+			
 			braking += 0.15;
 			if (braking > fallSpeed - 2)
 				{
@@ -97,8 +100,21 @@ moveLeft = keyboard_check(ord("A"))
 moveUp = keyboard_check(vk_up)
 moveDown = keyboard_check(vk_down)
 
-vx= ((moveRight- moveLeft) * moveSpeed);
-vy= ((moveDown- moveUp) * moveSpeed);
+
+if ((moveSpeed + acc) < 8)
+{
+	acc = 0.08;
+}
+else
+{
+	acc = 0;
+}
+
+moveSpeed += acc;
+vx = ((moveRight- moveLeft) * moveSpeed);
+
+
+vy = ((moveDown- moveUp) * moveSpeed);
 
 
 if (vx==0 && vy==0 )

@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_enemy_standing",
+    "path": "sprites/spr_enemy_standing/spr_enemy_standing.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
