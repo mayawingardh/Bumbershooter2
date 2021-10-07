@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_umbrella_shoot2",
-    "path": "sprites/spr_umbrella_shoot2/spr_umbrella_shoot2.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
