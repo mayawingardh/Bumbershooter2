@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_enemy_pet",
-    "path": "sprites/spr_enemy_pet/spr_enemy_pet.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

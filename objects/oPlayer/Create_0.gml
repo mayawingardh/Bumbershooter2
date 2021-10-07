@@ -21,7 +21,7 @@ parachuteInitiate = false;
 parachuteActive = false;
 braking = 0;
 
-moveSpeed = 2;
+moveSpeed = 0;
 
 //image_index = 2;
 speed = 0;
