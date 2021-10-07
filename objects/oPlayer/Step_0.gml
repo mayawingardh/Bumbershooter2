@@ -97,7 +97,8 @@ if (touchingGround == false)
 
 moveRight = keyboard_check(ord("D"))
 moveLeft = keyboard_check(ord("A"))
-moveUp = keyboard_check(ord"A" + vk_space)
+
+moveUp = keyboard_check(vk_space)
 moveDown = keyboard_check(vk_down)
 
 
@@ -123,8 +124,8 @@ if (vx==0 && vy==0 )
 	
 	switch dir
 	{
-		case 0: sprite_index = PlayerStandingL; break;
-		case 2: sprite_index= PlayerStandingR; break;
+		case 0: sprite_index = PlayerIdleL; break;
+		case 2: sprite_index= PlayerIdlR; break;
 		//case 3: sprite_index = spr_playerDown; break; 
 		//case 1: sprite_index = spr_playerUp; break; 
 	}

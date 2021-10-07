@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "PlayerIdle",
-    "path": "sprites/PlayerIdle/PlayerIdle.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
