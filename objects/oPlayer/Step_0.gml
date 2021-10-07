@@ -21,10 +21,7 @@ if (hitPoints < 1)
 		hitPoints=0;
 	}
 
-	if(audio_is_playing(Falldeath) == false) 
-{
 	audio_play_sound(Falldeath, 5, false);
-}
 	
 	if (deathTimer > 30)
 	{

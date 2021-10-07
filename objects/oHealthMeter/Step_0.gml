@@ -13,7 +13,6 @@ else
 {
 rSpeed = 4;
 speed = min(speed + 0.1, 0.5);
-var pointdir = point_direction(x, y, oPlayer.x + 40, oPlayer.y + 40);
 image_angle += rSpeed;
 direction = image_angle;	
 }
