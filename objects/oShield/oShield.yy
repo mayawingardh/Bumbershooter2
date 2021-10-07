@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_umbrella_shield",
-    "path": "sprites/spr_umbrella_shield/spr_umbrella_shield.yy",
+    "name": "spr_umbrella_shield_meter",
+    "path": "sprites/spr_umbrella_shield_meter/spr_umbrella_shield_meter.yy",
   },
   "solid": false,
   "visible": true,
