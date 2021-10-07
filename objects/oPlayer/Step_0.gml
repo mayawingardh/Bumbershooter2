@@ -97,7 +97,7 @@ if (touchingGround == false)
 
 moveRight = keyboard_check(ord("D"))
 moveLeft = keyboard_check(ord("A"))
-moveUp = keyboard_check(vk_up)
+moveUp = keyboard_check(ord"A" + vk_space)
 moveDown = keyboard_check(vk_down)
 
 
@@ -154,11 +154,11 @@ if (vx != 0|| vy!=0)
 	
 }	
 
-//if (vy > 0)
-//	{
-//		sprite_index = PlayerHangingL
-//		dir = 3;
-//	}
+if (vy > 0)
+	{
+		sprite_index = 
+		dir = 3;
+	}
 	
 //	if (vy < 0)
 //	{
